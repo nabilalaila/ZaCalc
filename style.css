@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.urbanist-custom {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+  }
+ 
+  .bg-img {
+    background-image: url("img/Background Hijau.png");
+    height: 690px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .topnav {
+    position: fixed;
+    background-color: #D0E0AA;
+    top: 0;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1000;
+    gap: 125px;
+  }
+
+  .logo {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.Nama-ZaCalc {
+    display: inline-block;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-family: "Urbanist";
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links{
+    display: flex;
+    gap: 5px;
+}
+  
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: "Urbanist";
+    font-weight: bold;
+    padding: 8px 12px;
+}
+  
+.nav-links a:hover {
+    border-bottom: 2px solid black;
+}
+
+.Cont-tengah{
+    margin-top: 90px;
+    margin-left: 65px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 300px;
+    padding: 50px;
+}
+
+.heading{
+    font-family: "Urbanist";
+    font-size: 85px;
+    font-weight: bold;
+    color : #1A3129;
+}
+
+.desc{
+    font-family: "Urbanist";
+    font-size: 24px;
+    color : #1A3129;
+}
+
+.btn_hitung{
+    background-color: #1A3129;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: "Urbanist";
+    margin-top: 17px;
+    padding: 12px 24px;
+    display: inline-block;
+}
+
+.btn_hitung:hover {
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.LP-pict{
+    width: 150px; /* Atur ukuran gambar */
+    height: auto;
+    max-height: 425px;
+}
+
+.White-space{
+    /* display: flex; */
+    margin-top: 100px;
+    justify-content:center;
+    color: #1A3129;
+    align-items: center;
+    justify-self: center;
+    font-family: "Urbanist";
+}
+
+.header-WS{
+    font-family: "Urbanist";
+    font-size: 50px;
+    font-weight: bold;
+    color: #1A3129;
+    align-items: center;
+    justify-self: center;
+}
+
+.ayat-zakat{
+    display: block;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+
+.WS-desc{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.PilZakat{
+    background-image: url("img/bg hijau tua.png");
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Urbanist";
+    text-align: center;
+}
+
+.header-pilzakat{
+    padding-top: 50px;
+}
+
+.judul-pilzakat{
+    color: white;
+    text-align: center;
+}
+
+.isiZakat{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-self: center;
+    gap: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.zakatMaal, .zakatFitrah, .zakatTani{
+    width: 350px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.btn_jenisZakat{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.btn_Fitrah, .btn_Maal, .btn_Tani{
+    background-color: #D0E0AA;
+    border-radius: 12px;
+    color: black;
+    text-decoration: none;
+    font-family: "Urbanist";
+    padding: 12px 24px;
+    display: inline-block;
+    margin: 0 120px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.btn_Fitrah:hover, .btn_Maal:hover, .btn_Tani:hover{
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.Teks1{
+    margin-top: 100px;
+    font-family: "Urbanist";
+    justify-self: center;
+    font-size: 50px;
+    color: #1A3129;
+}
+
+.isiFitrah{
+    width: 100%;
+}
+
+.ZakatFitrah {
+    display: block;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 5px;
+    position: relative;
+}
+
+.show-result .gambar-fitrah {
+    display: none; 
+}
+
+.cal-form, .form-result1, .cal-form-maal, .form-result2, .cal-form-tani{
+    margin-top: 50px;
+    justify-self: center;
+    background-color: white;
+    border : 2px solid #A9A9A9;
+    border-radius: 15px;
+    width: 500px;
+    font-family: "Urbanist";
+    padding: 10px;
+    box-shadow: 5px 5px 10px #A9A9A9;
+}
+.Teks2, .f-result1, .form-result2{
+    margin-top: 20px;
+    justify-self: center;
+    font-size: 25px;
+}
+
+.Teks3, .f-result2, .fp-result{
+    justify-self: center;
+    font-size: 18px;
+}
+
+.label-form, .label-air{
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-self: left;
+    display: block;
+}
+
+.jumlah, .jenisAir{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 40px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.jumlah::placeholder{
+    padding-left: 6px;
+    color: #A9A9A9;
+}
+
+.bt-zakatFitrah, .btn-kembali-fitrah{
+    font-family: "Urbanist";
+    margin-top: 25px;
+    display: block;
+    margin-left: 360px;
+    margin-right: 40px;
+    color: white;
+    background-color: #1A3129;
+    border-radius: 6px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.bt-zakatFitrah:hover, .btn-kembali-fitrah:hover{
+    background-color: #A9A9A9;
+    border-color: #A9A9A9;
+}
+
+.gambar-fitrah {
+    align-self: flex-end; 
+    display: flex;
+    justify-content: right;
+}
+
+.btn-kembali-fitrah{
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-self: center;
+}
+
+.cal-form-maal{
+    height: fit-content;
+}
+.ZakatMaal, .ZakatTani{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: fit-content;
+    gap: 210px;
+}
+
+.ZakatTani{
+    gap:100px
+}
+
+.container-tentang {
+    margin-top: 100px;
+    width: 100%;
+    height: 460px;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Urbanist";
+}
+
+.isi-tentang{
+width: 800px;
+padding-right: 200px;
+align-content: center;
+}
+
+.img-logo{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    align-content: center;
+}
+
+.container-tentang h1 {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.container-tentang p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+.footer p{
+    font-family: "Urbanist";
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    margin-top: 50px;
+}

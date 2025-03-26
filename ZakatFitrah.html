@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZakatFitrah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="topnav">
+            <div class="logo">
+                <img src="img/ZaCalc Logo Fiks.png" alt="Logo ZaCalc">
+                <span class="Nama-ZaCalc">ZaCalc</span>
+            </div>
+            <div class="nav-links">
+                <a href="home.html">Beranda</a>
+                <a href="home.html#PilZakat">Hitung</a>
+                <a href="#tentang">Tentang</a>
+        </div>
+    </div>
+    <div class = "konten-fitrah">
+        <h2 class="Teks1">Zakat Fitrah</h2>
+        <div class="isiFitrah">
+            <div id="ZakatFitrah" class="ZakatFitrah">
+                <div id="form-container" class="cal-form">
+                    <h2 class="Teks2">Zakat Fitrah</h2>
+                    <p class="Teks3">Ayo Berhitung!</p>
+                    <label class="label-form">Jumlah Orang yang Berzakat</label>
+                    <input type="number" id="jumlah" class="jumlah" placeholder="Masukkan jumlah orang">
+                    <button onclick="hitungFitrah()" class="bt-zakatFitrah">
+                    Hitung</button>
+                </div>
+                <div class="gambar-fitrah">
+                    <img src="img/img Fitrah.png" alt="Logo ZaCalc">
+                </div>
+            </div> 
+    </div>   
+    </div>
+    <div id="result" class="form-result1" style="display: none;">
+        <h2 class="f-result1">Hasil Perhitungan</h2>
+        <p class="f-result2">Berikut hasil perhitungan zakat fitrah Anda</p>
+        <p id="hasil" class="fp-result"></p>
+        <button onclick="resetForm()" class="btn-kembali-fitrah">
+            Kembali
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
